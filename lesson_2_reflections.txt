@@ -6,3 +6,8 @@ How is the staging area different from the working directory and the repository?
 
     The staging area is a place that sits between the working directory and the repository.  You place files that you want to commit together in the staging area with the 'add' command and then you commmit them to the repository with the commit command.  The value this approach offers is that it allows you to select multiple files to add to the staging area and then commit them together in a single commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+    When you have made changes to a file that represent a single logical change and added that file to the staging area, you can go back and make changes to any other files that are affected by this change, then add them also to the staging area.  At this point when all affected files have been changed and added to the
+    staging area you would now make your commit.
+
