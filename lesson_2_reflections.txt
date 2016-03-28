@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    You are creating an empty git repository in the folder where you ran the git init command.  The git repository is viewed in Windows as a new folder that has several subfolders and files within it.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area is a place that sits between the working directory and the repository.  You place files that you want to commit together in the staging area with the 'add' command and then you commmit them to the repository with the commit command.  The value this approach offers is that it allows you to select multiple files to add to the staging area and then commit them together in a single commit.
+
