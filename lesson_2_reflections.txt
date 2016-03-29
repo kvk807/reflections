@@ -13,5 +13,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 How do the diagrams help you visualize the branch structure?
 
-    Diagrams show the current commit you are working on as well as where it fits in the overall structure of the commit history.  You can see if it is a part of the master branch or a new branch, and determine where new branchs diverged from the main branch.  This gives you an idea of the progression of the overall development or project you're working on, especially when there are many developers working on the same project.
+    Diagrams show the current commit you are working on as well as where it fits in the overall structure of the commit history.  You can see if it is a part of the master branch or a new branch, and determine where new branchs diverged from the main branch.  This gives you an idea of the progression of the overWhat is the result of merging two branches together? Why do we represent it in the diagram the way we do?all development or project you're working on, especially when there are many developers working on the same project.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    The result of merging two branches together is to update one of the branches so that each of the commits from the other is added to the first branch.  It does not delete the branch whose commits are added to the other branch, just combines the commits from both branches together.  It is represented by drawing a line from the bottom (last commit) of the branch whose commits are being added, to the branch where the commits will be added.  This provides a visual reference that commits from the second branch have been merged with the first branch.
 
