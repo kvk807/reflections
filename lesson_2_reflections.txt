@@ -11,3 +11,7 @@ How can you use the staging area to make sure you have one commit per logical ch
     When you have made changes to a file that represent a single logical change and added that file to the staging area, you can go back and make changes to any other files that are affected by this change, then add them also to the staging area.  At this point when all affected files have been changed and added to the
     staging area you would now make your commit.
 
+How do the diagrams help you visualize the branch structure?
+
+    Diagrams show the current commit you are working on as well as where it fits in the overall structure of the commit history.  You can see if it is a part of the master branch or a new branch, and determine where new branchs diverged from the main branch.  This gives you an idea of the progression of the overall development or project you're working on, especially when there are many developers working on the same project.
+
