@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  One example would be if I am working on a different computer than I usually use, such as working at an office and then at home, or       while travelingfrom the office to a job site.
